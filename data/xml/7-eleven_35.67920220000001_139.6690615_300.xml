@@ -1,0 +1,26 @@
+<annotation>
+	<folder>7-eleven</folder>
+	<filename>7-eleven_35.67920220000001_139.6690615_300.png</filename>
+	<path>C:\7-eleven\7-eleven_35.67920220000001_139.6690615_300.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>0</width>
+		<height>0</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>7-eleven</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1</xmin>
+			<ymin>8</ymin>
+			<xmax>345</xmax>
+			<ymax>293</ymax>
+		</bndbox>
+	</object>
+</annotation>

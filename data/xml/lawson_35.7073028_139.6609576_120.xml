@@ -1,0 +1,26 @@
+<annotation>
+	<folder>lawson</folder>
+	<filename>lawson_35.7073028_139.6609576_120.png</filename>
+	<path>C:\lawson\lawson_35.7073028_139.6609576_120.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>0</width>
+		<height>0</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>lawson</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>508</xmin>
+			<ymin>295</ymin>
+			<xmax>534</xmax>
+			<ymax>321</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,26 @@
+<annotation>
+	<folder>family mart</folder>
+	<filename>family mart_35.57545770000001_139.55683390000002_0.png</filename>
+	<path>C:\family mart\family mart_35.57545770000001_139.55683390000002_0.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>0</width>
+		<height>0</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>family_mart</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>292</xmin>
+			<ymin>302</ymin>
+			<xmax>356</xmax>
+			<ymax>333</ymax>
+		</bndbox>
+	</object>
+</annotation>
