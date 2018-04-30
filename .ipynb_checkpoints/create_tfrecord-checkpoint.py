@@ -30,11 +30,11 @@ FLAGS = flags.FLAGS
 
 
 def class_to_int(label):
-    if label == '7-eleven':
+    if label == '7_eleven':
         return 1
     else if label == 'lawson':
         return 2
-    else if label == 'family mart':
+    else if label == 'family_mart':
         return 3
     else:
         None

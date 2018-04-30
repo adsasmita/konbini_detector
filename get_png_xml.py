@@ -14,7 +14,7 @@ def get_xml(src_dir="png/", dst_dir="png_f/"):
         src_dir (str): path to files
         dst_dir (str): path to destination directory
     """
-
+    cdict = {}
     if not os.path.exists(dst_dir):
         os.makedirs(dst_dir)
         print(f"created directory: {dst_dir}")
@@ -30,9 +30,11 @@ def get_xml(src_dir="png/", dst_dir="png_f/"):
                     src_path = os.path.join(path,os.path.splitext(f)[0]+ext)
                     shutil.copy2(src_path,dst_dir)
 
-        print(f"xml count for keyword: {keyword} = {count}")
+        cdict[keyword] = count
     print("done")
-    
+    for k,v in dict1.items():
+        print(f"xml count for {k}:{v}")
+
 if __name__ == "__main__":
     get_xml(src_dir="png/", dst_dir="png_f/")
 
