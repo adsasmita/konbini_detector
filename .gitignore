@@ -1,3 +1,6 @@
 data/all_img
+data/xml_old
+data/7_eleven_old
+data/tfrecord
 bigfiles/
-model/from_zoo/
+models/from_zoo/
