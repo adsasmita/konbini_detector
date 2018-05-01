@@ -1,0 +1,13 @@
+item {
+  id: 1
+  name: '7_eleven'
+}
+item {
+  id: 2
+  name: 'lawson'
+}
+item {
+  id: 3
+  name: 'family_mart'
+}
+
