@@ -30,9 +30,9 @@ FLAGS = flags.FLAGS
 def class_to_int(label):
     if label == '7_eleven':
         return 1
-    else if label == 'lawson':
+    elif label == 'lawson':
         return 2
-    else if label == 'family_mart':
+    elif label == 'family_mart':
         return 3
     else:
         None
@@ -66,7 +66,7 @@ def create_tf_example(group, path):
         ymins.append(row['ymin'] / height)
         ymaxs.append(row['ymax'] / height)
         classes_text.append(row['class'].encode('utf8'))
-        classes.append(class_text_to_int(row['class']))
+        classes.append(class_to_int(row['class']))
 
     tf_example = tf.train.Example(features=tf.train.Features(feature={
         'image/height': dataset_util.int64_feature(height),
@@ -87,7 +87,7 @@ def create_tf_example(group, path):
 
 def main(_):
     writer = tf.python_io.TFRecordWriter(FLAGS.output_path)
-    path = os.path.join(os.getcwd(), 'img')
+    path = os.path.join(os.getcwd(), "data/img")
     examples = pd.read_csv(FLAGS.csv_input)
     grouped = split(examples, 'filename')
     for group in grouped:

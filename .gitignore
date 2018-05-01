@@ -4,3 +4,7 @@ data/7_eleven_old
 data/tfrecord
 bigfiles/
 models/from_zoo/
+models/ssd_inception_v2/
+models/ssd_mobilenet_v1/
+models/ssd_mobilenet_v2/
+
