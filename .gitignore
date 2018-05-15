@@ -2,9 +2,16 @@ data/all_img
 data/xml_old
 data/7_eleven_old
 data/tfrecord
+data/img_test
+data/result
+data/result_archive
 bigfiles/
 models/from_zoo/
 models/ssd_inception_v2/train
 models/ssd_mobilenet_v1/train
 models/ssd_mobilenet_v2/train
+models/ssd_mobilenet_v201/train
+models/ssd_mobilenet_v201/frozen_graph
+models/ssd_mobilenet_v202/train
+models/ssd_mobilenet_v202/frozen_graph
 
